@@ -217,7 +217,7 @@ Contoh :
       /* n / 6 */
       transform: rotate(0.53333333rad);
       /* 33 1/3 */
-      transform: rotate(33.3grad);
+     3grad);
     }
     ```
   * #### **time** 
@@ -250,3 +250,5 @@ Contoh :
 - https://www.w3.org/Style/Examples/007...​
 - https://alligator.io/css/css-units-ex...​
 - https://css-tricks.com/fun-viewport-u...
+- https://www.youtube.com/watch?v=3-quMftxV3Q&t=684s
+- https://www.youtube.com/watch?v=8VvJhxGOU40&t=35s
