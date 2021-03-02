@@ -216,3 +216,9 @@ Contoh :
     ```
 
 
+
+#### ***Resources CSS Value & Unit :***
+- https://developer.mozilla.org/en-US/d...​
+- https://www.w3.org/Style/Examples/007...​
+- https://alligator.io/css/css-units-ex...​
+- https://css-tricks.com/fun-viewport-u...
