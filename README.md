@@ -1,7 +1,29 @@
 # **Belajar CSS**
-
+## Daftar Isi
+- [🤹🏼 CSS VALUE & UNIT](#CSS-VALUE-&-UNIT)
+  - [Nilai & Satuan pada CSS](#Nilai-&-Satuan-pada-CSS)
+    - [CSS value](CSS-value)
+      - [integer / Bilangan Bulat](integer-/-Bilangan-Bulat)
+      - [number / Bilangan Pecahan](number-/-Bilangan-Pecahan)
+      - [precentage](percentage)
+      - [dimension](dimension)
+        - [Length](Length)
+          - [Absolute](Absolute)
+          - [Relative](Relative)
+      - [angel / sudut](angel-/-sudut)
+        - [deg](deg)
+        - [rad](rad)
+        - [grad](grad)
+        - [turn](turn)
+      - [time](time)
+        - [s / second](s)
+        - [ms / miliseconds](ms)
+      - [resolution](resolution)
+        - [dpi / dot per inch](dpi)
+        - [dpcm / dot per centimeter](dpcm)
+        - [dppx / dot per pixel](dppx)
 ## ***CSS VALUE & UNIT***
-#### **NIlai & Satuan pada CSS**
+#### **Nilai & Satuan pada CSS**
 
 Contoh :
 ```css
