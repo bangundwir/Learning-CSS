@@ -1,7 +1,7 @@
 # **Belajar CSS**
 
 ## ***CSS VALUE & UNIT***
-**NIlai & Satuan pada CSS**
+#### **NIlai & Satuan pada CSS**
 
 Contoh :
 ```css
@@ -17,7 +17,7 @@ Contoh :
 }
 ```
 ### CSS value
-* **integer** / Bilangan Bulat
+* #### **integer** / Bilangan Bulat
 
 **Contoh**
 ```css
@@ -29,7 +29,7 @@ Contoh :
   grid-row-end: -4
 }
 ```
-* **number** / Bilangan pecahan
+* #### **number** / Bilangan pecahan
 
 **Contoh**
 ```css
@@ -38,7 +38,7 @@ Contoh :
   transform: scale(2.5);
 }
 ```
-* **percentage** / "% Merepresentasika sebagian dari nilai tertentu % selalu relative terhadap nilai yang lain"
+* #### **percentage** / "% Merepresentasika sebagian dari nilai tertentu % selalu relative terhadap nilai yang lain"
 
 **Contoh**
 ```css
@@ -55,15 +55,72 @@ Contoh :
   background-color: royalblue;
 }
 ```
-* **dimension** / Number yang memiliki satuan di belakangnya
-  * Length 
-  * angle / sudut
-    * deg / degree / derajat
-    * rad / radian
-    * grad /gradian
-    * turn / untuk menentukan berapa putaran
-  * time
-  * resolution
+* ### **dimension** / Number yang memiliki satuan di belakangnya
+  * #### **Length** 
+    * **Absolute**
+
+      **Length Abolute**
+
+      |***Absolute Unit*** | ***Description*** | ***Example***| 
+      |:-----:|:-----:|:-----:|
+      |px| 1/96 of 1 inch (96px = inch)|font-size: 12px;|
+      |pt| 1/78 of 1 inch (72pt = 1 inch)| font-size: 12pt;|
+      |pc| 12pt = 1pc| css font-size:1.2pc;|
+      |cm| centimeter|font-size: 4mm;|
+      |mm| millimeter(10 mm = 1 cm)| font-size: 4mm;|
+      |in| inches|font-size:0.2in;|
+      
+
+
+  * #### **angle** / sudut
+    * **deg** / degree / derajat
+    * **rad**/ radian
+    * **grad** /gradian
+    * **turn** / untuk menentukan berapa putaran
+     
+    **RUMUS** 
+
+     <img src = './images/agles.PNG' alt='Conversion of common agles' title='click' />
+
+    **Hasil CSS**
+    ```css
+      .box {
+      width: 10px;
+      height: 100px;
+      margin: 50px;
+      background-color: salmon;
+
+      transform: rotate(30deg);
+      /* 1 / 12 */
+      transform: rotate(0.08333333turn);
+      /* n / 6 */
+      transform: rotate(0.53333333rad);
+      /* 33 1/3 */
+      transform: rotate(33.3grad);
+    }
+    ```
+  * #### **time** 
+    * **s** / second / detik
+    * **ms** / miliseconds / milidetik
+
+      **Contoh** 
+      ```css
+      .box {
+        transition: 300ms; // => 0.3s
+      }
+       ```
+
+  * #### **resolution** / Untuk menentukan resolusi dari tampilan website
+    * #### **dpi** / dot per inch
+    * #### **dpcm** / dot per centimeter
+    * #### **dppx** / dot per pixel
+
+    **Contoh**
+    ```css
+    @media print and (min-resolution: 300dpi) {
+
+    }
+    ```
 
 
 ### **Length - Relative**
