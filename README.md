@@ -57,9 +57,9 @@ Contoh :
 ```
 * ### **dimension** / Number yang memiliki satuan di belakangnya
   * #### **Length** 
-    * **Absolute**
+    * ### **Absolute**
 
-      **Length Abolute**
+      ### **Length Abolute**
 
       |***Absolute Unit*** | ***Description*** | ***Example***| 
       |:-----:|:-----:|:-----:|
@@ -69,8 +69,101 @@ Contoh :
       |cm| centimeter|font-size: 4mm;|
       |mm| millimeter(10 mm = 1 cm)| font-size: 4mm;|
       |in| inches|font-size:0.2in;|
-      
 
+    * ### **Relative**
+      ### **Length - Relative**
+
+      |***Relative unit*** | ***Keterangan*** |
+      :-----:|:-----:|
+      |% | presentasi ukuran relatif terhadap ukuran elment parent|
+      |em| relatif terhadap ukuran font yang sedang digunakan |
+      |rem| relatif terhadap ukuran font "root" / <html>|
+      |ch| relatife terhadap lebar karakter '0' dari font yang sedang digunakan |
+      |vh| relatif terhadap tinggi dari viewport|
+      |vw| relatif terhadap lebar dari viewport|
+      |vmin| relative terhadap dimensi terkecil sebuah viewport|
+      |vmax| relative terhadap dimensi terbesar sebuah viewport|
+
+      ### **Contoh**
+      #### **em** - ***relative terhadap ukuran font yang sedang digunakan*** 
+      ```html
+      <div class="box">
+        <h1>Hello World</h1>
+        <p>Belajar CSS Bersama<p>
+      </div> 
+      ```
+      ```css 
+      .box {
+        font-size: 30px;
+      }
+
+      .box h1 {
+        font-size: 1em;
+      }
+
+      .box p {
+        font-size: 2em;
+      }
+      ```
+      #### **rem** - ***relative terhadap ukuran font "root" / html*** 
+      ```html
+      <div class="box">
+        <h1>Hello World</h1>
+        <p>Belajar CSS Bersama<p>
+      </div> 
+      ```
+      ```css 
+      .html {
+        font-size: 50px;
+      }
+
+      .box {
+        font-size: 30px;
+      }
+
+      .box h1 {
+        font-size: 1rem;
+      }
+
+      .box p {
+        font-size: 2rem;
+      }
+      ```
+      #### **ch** - ***relative terhadap lebar karakter '0' dari font yang sedang digunakan*** 
+      ```html
+      <div class="box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamillum temporibus eos neque error reiciendis
+        </p>
+      </div>
+      ```
+      ```css
+      .box {
+        width: 60ch; // 60 karakter
+      }
+      ```
+      #### **vh (viewport height) & vw (viewport width)** - ***.***
+      ```css
+      .box {
+        background-color: lightblue;
+        height: 100vh;
+      }
+      ```
+      #### **vmin** - ***adalah ukuran layar paling kecil***
+      ```css
+      .box {
+        background-color:lightblue;
+        height: 100vmin;
+        width: 100vmin;
+      }
+      ```
+      #### **vmax** - ***akan mengambil viewport terpanjangnya atau tinggi maksimalnya***
+      ```css
+      .box {
+        background-color:lightblue;
+        height: 100vmax;
+        width: 100vmax;
+      }
+      ```
 
   * #### **angle** / sudut
     * **deg** / degree / derajat
@@ -123,15 +216,3 @@ Contoh :
     ```
 
 
-### **Length - Relative**
-
-|***Relative unit*** | ***Keterangan*** |
-:-----:|:-----:|
-|% | presentasi ukuran relatif terhadap ukuran elment parent|
-|em| relatif terhadap ukuran font yang sedang digunakan |
-|rem| relatif terhadap ukuran font "root" / <html>|
-|ch| relatife terhadap lebar karakter '0' dari font yang sedang digunakan |
-|vh| relatif terhadap tinggi dari viewport|
-|vw| relatif terhadap lebar dari viewport|
-|vmin| relative terhadap dimensi terkecil sebuah viewport|
-|vmax| relative terhadap dimensi terbesar sebuah viewport|
