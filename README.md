@@ -1,24 +1,24 @@
 # **Belajar CSS**
 ## Daftar Isi
-- [🤹🏼 CSS VALUE & UNIT](#CSS-VALUE-&-UNIT)
-  - [Nilai & Satuan pada CSS](#Nilai-&-Satuan-pada-CSS)
-    - [CSS value](CSS-value)
-      - [integer / Bilangan Bulat](integer-/-Bilangan-Bulat)
-      - [number / Bilangan Pecahan](number-/-Bilangan-Pecahan)
-      - [precentage](percentage)
-      - [dimension](dimension)
-        - [Length](Length)
-          - [Absolute](Absolute)
-          - [Relative](Relative)
-      - [angel / sudut](angel-/-sudut)
-        - [deg](deg)
+- [🤹🏼 CSS VALUE & UNIT](##CSS-VALUE-&-UNIT)
+  - [Nilai & Satuan pada CSS](####Nilai-&-Satuan-pada-CSS)
+    - [CSS value](###CSS-value)
+      - [integer / Bilangan Bulat](####integer-/-Bilangan-Bulat)
+      - [number / Bilangan Pecahan](####number-/-Bilangan-Pecahan)
+      - [precentage](####percentage)
+      - [dimension](###dimension)
+        - [Length](####Length)
+          - [Absolute](###Absolute)
+          - [Relative](###Relative)
+      - [Angle](####Angle)
+        - [deg](#deg)
         - [rad](rad)
         - [grad](grad)
         - [turn](turn)
-      - [time](time)
+      - [time](####time)
         - [s / second](s)
         - [ms / miliseconds](ms)
-      - [resolution](resolution)
+      - [resolution](####resolution)
         - [dpi / dot per inch](dpi)
         - [dpcm / dot per centimeter](dpcm)
         - [dppx / dot per pixel](dppx)
@@ -60,7 +60,8 @@ Contoh :
   transform: scale(2.5);
 }
 ```
-* #### **percentage** / "% Merepresentasika sebagian dari nilai tertentu % selalu relative terhadap nilai yang lain"
+* #### **percentage**  
+  "% Merepresentasika sebagian dari nilai tertentu % selalu relative terhadap nilai yang lain"
 
 **Contoh**
 ```css
@@ -77,7 +78,8 @@ Contoh :
   background-color: royalblue;
 }
 ```
-* ### **dimension** / Number yang memiliki satuan di belakangnya
+* ### **dimension**
+    Number yang memiliki satuan di belakangnya
   * #### **Length** 
     * ### **Absolute**
 
@@ -187,11 +189,15 @@ Contoh :
       }
       ```
 
-  * #### **angle** / sudut
-    * **deg** / degree / derajat
-    * **rad**/ radian
-    * **grad** /gradian
-    * **turn** / untuk menentukan berapa putaran
+  * #### **Angle**
+    * **deg**
+     / degree / derajat
+    * **rad**
+     / radian
+    * **grad**
+     / gradian
+    * **turn** 
+     / untuk menentukan berapa putaran
      
     **RUMUS** 
 
