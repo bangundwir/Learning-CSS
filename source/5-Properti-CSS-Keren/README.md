@@ -1,3 +1,5 @@
+[<< Kembali](../readMe.md)
+
 # **5 PROPERTI CSS KEREN**
 
 ## PRE-REQUISITE
@@ -104,6 +106,7 @@ CONTOH
       -webkit-background-clip: text;
     }
 ```
+
 
 **2.Masking Image**
 
