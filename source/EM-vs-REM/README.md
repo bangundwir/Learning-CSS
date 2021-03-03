@@ -12,6 +12,7 @@ p {
 }
 ```
     - menghitug em => nilai 0.5 em adalah 0.5 x 16px = 8px
+    - padding,margin,widht,height => em relative terhadap 16px => em untuk lang  => tidak relative terhadap element parrot nya kalu tapi relative terhadap element yang bersangkutan
 
 ## rem (root em) = nilai rem hanya terpaku pada font-size di element root yaitu < html > 
     - nilai default 1rem yaitu 16px karena nilaid default html adalah 16px
@@ -25,6 +26,7 @@ p {
   }
   ```
     - Meghitung rem => nilai 0.75rem adalah 12px. karena 12px / 16px = 0.75rem
+    - :root = html
 
 
 
