@@ -20,7 +20,7 @@
 <img src='img/111.PNG'/>
 
 ## **Diagram CSS / module" dalam CSS**
-Module dalam CSS di atur oleh [w3.org]('https://www.w3.org/Style/CSS/Overview.en.html')
+Module dalam CSS di atur oleh [w3.org](https://www.w3.org/Style/CSS/Overview.en.html)
 <img src='img/css1.PNG'/>
 - Warna Hijau => sudah di suport hampir semua browser
 - Warna Hijau tua => belum semua di suport browser
